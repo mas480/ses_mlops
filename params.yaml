@@ -1,0 +1,11 @@
+split:
+  split_ratio: 0.25
+  random_state: 42
+  shuffle: False
+
+train:
+  iterations: 1000
+  early_stopping_rounds: 1000
+  verbose: 100
+  depth: 7
+  eval_metric: 'RMSE'
